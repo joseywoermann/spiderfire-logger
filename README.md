@@ -2,9 +2,6 @@
 
 > This logging module is ported to [Spiderfire](https://github.com/Redfire75369/spiderfire/) from [`@josey/logger`](https://github.com/joseywoermann/logger).
 
-### Disclaimer
-At the moment, all logs will have [different colors depending on their data type](https://github.com/Redfire75369/spiderfire/issues/19). This is a known issue, but I haven't found a workaround yet.
-
 ## Install
 
 Download the latest version from GitHub and add it to your project.
