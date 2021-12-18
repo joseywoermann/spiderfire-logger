@@ -22,7 +22,7 @@ const logger = new Logger("UTC");
 logger.info("This is an example!");
 ```
 
-### Advanced setup with custom colors & explicit types
+### Advanced setup with custom colors
 
 ```js
 import Logger from "./logger.js";
@@ -55,12 +55,12 @@ Logger.error<any>(...messages: any[]) => void
 
 ### Configuration
 
-it is possible to modify the loggers behaviour and appereance in the constructor.
+It is possible to modify the logger's behaviour and appearance in the constructor.
 
-The fist argument determines whether to use UTC or local time.
+The first argument determines whether to use UTC or local time.
 The second argument can be used to change the colors used to highlight the log level.
 
-```ts
+```js
 import Logger from "./logger.js";
 
 // Either "UTC" or "local"
